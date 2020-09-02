@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html> 
+  <head> 
+    <style> 
+
+   @import url("https://fonts.googleapis.com/css?family=Noto+Sans"); 
+* { 
+  position: relative; 
+
+} 
+
+
+html, 
+body { 
+   -moz-transform: scale(1, 1); /* Moz-browsers */
+   zoom: 1; /* Other non-webkit browsers */
+   zoom: 100%; /* Webkit browsers */
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+} 
+  
+.wrapper { 
+  height: 100%; 
+  background-color: #4d5258; 
+
+} 
+
+.wave-btn { 
+  color: #f5f6fa; 
+  text-decoration: none; 
+  border: 22px solid #f5f6fa; 
+  padding: 90px 90px; 
+  font-size: 22px; 
+  font-weight: 60; 
+  font-family: "Noto Sans"; 
+  line-height: 52px; 
+  border-radius: 50%; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  overflow: hidden; 
+  transition: all 1s; 
+} 
+  
+.wave-btn:before { 
+  content: ""; 
+  position: absolute; 
+  width: 900px; 
+  height: 900px; 
+  border-radius: 290px; 
+  background-color: #ff7c00; 
+  top: 280px; 
+  left: 50%; 
+  transform: translate(-50%); 
+  animation: wave 13s infinite linear; 
+  transition: all 1s;
+
+} 
+  
+  
+.wave-btn:hover:before { 
+      	width: 3050px;
+	height: 3050px;
+	top: 20px;
+	overflow: hidden;
+ 	
+} 
+
+
+  
+@keyframes wave { 
+  0% { 
+               transform: translate(-50%) rotate(-180deg); 
+      
+  } 
+    
+    
+  100% { 
+            transform: translate(-50%) rotate(360deg); 
+  } 
+} 
+
+    </style> 
+  </head> 
+  <body> 
+
+  
+<div class="wrapper"> 
+      <a href="Demo.htm" class="wave-btn"><span style="padding-right:3px; display:inline-block;">
+
+<img class="manImg" src="https://drive.google.com/uc?export=view&id=12eRsNIj1FEqicCZf1ihG0G6_O4eH3Nxu"  width="290" height="250"></img></span></a> 
+
+
+
+    </div> 
+
+
+
+  </body> 
+</html> 
+
