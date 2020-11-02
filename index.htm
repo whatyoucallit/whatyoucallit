@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html> 
+  <head> 
+    <style> 
+
+   @import url("https://fonts.googleapis.com/css?family=Noto+Sans"); 
+* { 
+  position: relative; 
+
+} 
+
+
+html, 
+body { 
+   -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+   zoom: 0.8; /* Other non-webkit browsers */
+   zoom: 80%; /* Webkit browsers */
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+} 
+  
+.wrapper { 
+  height: 100%; 
+ /* background-color: #4d5258; */
+    background-color: #1B1B1B;
+
+} 
+
+.wave-btn { 
+  color: #ffffff; 
+  text-decoration: none; 
+  border: 22px solid #ffffff; 
+  padding: 50px 50px; 
+  padding-right: inherit; 
+  font-size: 22px; 
+  font-weight: 60; 
+  font-family: "Noto Sans"; 
+  line-height: 52px; 
+  border-radius: 50%; 
+  position: absolute; 
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  overflow: hidden; 
+  transition: all 1s; 
+} 
+  
+.wave-btn:before { 
+  content: ""; 
+  position: absolute; 
+  width: 900px; 
+  height: 900px; 
+  border-radius: 290px; 
+  background-color: #ff7c00; 
+  top: 280px; 
+  left: 50%; 
+  transform: translate(-50%); 
+  animation: wave 13s infinite linear; 
+  transition: all 1s;
+
+} 
+  
+  
+.wave-btn:hover:before { 
+      	width: 3000px;
+	height: 3000px;
+	top: 0px;
+	overflow: hidden;
+ 	
+} 
+
+div.introText {
+	position: fixed;
+	top: 70%;
+width: auto;
+left: 31%;
+text-alignment: center;
+padding: 0px 0px;
+text-decoration: none;
+font-size: 120px;
+text-align: center;
+color: #ffffff;
+font-family:  cambria,verdana,garamond,courier,arial,helvetica;
+background-color: #ff7c00;
+	    }
+
+  
+@keyframes wave { 
+  0% { 
+               transform: translate(-50%) rotate(-180deg); 
+      
+  } 
+    
+    
+  100% { 
+            transform: translate(-50%) rotate(360deg); 
+  } 
+} 
+
+    </style> 
+  </head> 
+  <body> 
+
+  
+<div class="wrapper"> 
+      <a href="Main.htm" class="wave-btn"><span style="padding-right:8px; display:inline-block;">
+
+<img class="manImg" src="\text3600.png"  width="410" height="350"></img></span></a> 
+
+    </div> 
+
+<div class="introText">
+what you call IT
+</div>
+
+
+  </body> 
+</html> 
+
