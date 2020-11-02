@@ -1,0 +1,7 @@
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #040421 0%,#{fade-out(#040421, 0)} 75%,#{fade-out(#040421, 0)} 100%);
+  p {
+    margin-bottom: 5rem;
+  }
+}

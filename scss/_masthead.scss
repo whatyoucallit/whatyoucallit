@@ -1,0 +1,56 @@
+﻿ @font-face {
+   font-family: 'Visitor';
+   src: url('../visitor1-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('../visitor1.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+ }
+
+ h6{
+   font-family: 'Visitor' !important;
+   font-size: 1.9rem;
+ }
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, #{fade-out(black, .7)} 0%,#{fade-out(#040421, .3)} 75%,#040421 100%), url('../img/intro-bg-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-family: 'Visitor';
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 1.8rem;
+    background: -webkit-linear-gradient(fade-out(white, 0.01), fade-out(white, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  @media(min-width: 768px) {
+    h1 {
+      font-size: 40rem;
+      line-height: 4rem;
+    }
+  }
+  @media(min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+    h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
+}
