@@ -1,0 +1,76 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'buttons.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'signup.scss';
+@import 'contact.scss';
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: $primary;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 20%);
+  }
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+footer {
+  padding: 3rem 0;
+}
+
+.width-15{
+  width: 15%;
+}
+
+.width-40{
+  width: 40%;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.mr-2-9{
+  margin-right: 2.9em !important;
+}
+
+.width-108{
+  width: 108% !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .mr-2-9{
+    margin-right: 1.0rem !important;
+  }
+
+  h6{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mr-2-9{
+    margin-right: 0 !important;
+    font-size: 1.0rem;
+  }
+}
