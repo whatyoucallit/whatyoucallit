@@ -234,6 +234,11 @@
 
 @media(max-width: 700px) {
 
+	.mt-20, 
+.my-20{
+	margin-top: 2rem !important;
+}
+	
   .masthead h1{font-size:3.5rem;line-height:3.5rem;letter-spacing:1rem;}
   .masthead h2{font-size:1.25rem;line-height:1.25rem}
 	
