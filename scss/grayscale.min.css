@@ -239,6 +239,9 @@
 	margin-top: 3rem !important;
 	margin-bottom:3rem !important;
 }
+	.h-33{
+		height:25% !important;
+	}
 	
   .masthead h1{font-size:3.5rem;line-height:3.5rem;letter-spacing:1rem;}
   .masthead h2{font-size:1.25rem;line-height:1.25rem}
