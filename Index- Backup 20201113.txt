@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WhatYouCallIT</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="scss/grayscale.min.css" rel="stylesheet">
+
+</head>
+
+
+
+
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo.png" alt="logo"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+	 <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#demo">DEMO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">THE PROCESS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">OUR TEAM</a>
+          </li>
+	  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto">
+        <h1 class="mx-auto my-0 text-center">•WYCIT•</h1> 
+		<h9 class="mx-auto my-0 text-center">What you call IT</h9>  <!-- testingtesting -->
+        <h2 class="text-white-50 mt-5 mb-5">Mixing realities</h2>
+        
+		<!--<a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>-->
+      </div>
+    </div>
+  </header>
+
+<!-- Demo Section -->
+  
+  <section class="projects-section bg-light">
+    <div class="container">
+<h2 id="demo" class="text-black mb-3"></h2>
+      <div id="demo" class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+
+            <iframe width="100%" height="340" src="https://www.youtube.com/embed/Yx1HX83gr3s">
+	    </iframe>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-light text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-black">What we do</h4>
+                <p class="mb-0 text-black-50">Yes, here you see a cool video of us.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+        
+</section>
+
+	
+<!-- Process Section -->
+
+ <section class="projects-section bg-light">
+	 <div class="container">
+      <!-- Project One Row -->
+
+      <h2 id="projects" class="text-black mb-3">The Process</h2>
+      <div class="row justify-content-center no-gutters mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/Kamera.png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Reality Capture</h4>
+                <p class="mb-0 text-white-50">WYCIT specialized in capturing facilities and equipment using photogrammetry technology, which is the science of obtaining reliable data and 3D scans of physical objects through the process of imagery and recordings. We use a method that is both time-saving and cost-effective which allows us to deliver high quality services in an efficent manner.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/VirtualFactory.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Mixing Realities</h4>
+                <p class="mb-0 text-white-50">WYCIT bridges the gap between reality and simulations using the power of game engines and 3D scans. By exposing the scanned facilities and equiptment to the physics and interactions avalible in the Unity game engine realistic simulations and interactions are achived.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Three Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/LeoVR1.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">VR Interaction</h4>
+                <p class="mb-0 text-white-50">WYCIT incorperates VR-techonology in its simulations and thus allows the users and their stakesholders to visualize and simulate what-if-scenarios in an interactive and intuitive way. VR allows us to evaluate design and layout changes in a fast and interactive manner making it a powerful tool for an validation and decision process.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+	
+	 <!-- About Section -->
+  
+
+  <!-- Projects Section -->
+  <section class="projects-section bg-light">
+    <div class="container">
+      <!-- Featured Project Row -->
+      <div id="about" class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-md-10 col-lg-8">
+            <h2 class="text-black mb-3">About us</h2>
+            <form class="form-inline d-flex">
+            </form>
+          </div>
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/VRGlasses1.png" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <p class="mb-0 text-black">WhatYouCall IT was founded in 2020 by four graduates from Chalmers University of Technology in Gothenburg, Sweden. With the urge of digitalizing and revolutionizing the industry, WYCIT relies heavily on the constant technologiocal evolution and aims to incooperating an innovative midset and spirit in everything we do.</p>
+            <p class="text-black-50 mb-0"></p>
+          </div>
+        </div>
+      </div>
+ </section>
+	
+
+    <!-- The team -->
+  <section class="signup-section">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </section>
+  <section id="signup" class="contact-section bg-black">
+    <div class="container">
+      <div class="col-md-10 col-lg-8">
+        <h2 class="text-white mb-3">Our team</h2>
+        <form class="form-inline d-flex">
+        </form>
+      </div>
+        <div class="row">
+	
+          <div class="col-md-3 mb-3 mb-md-0 mr-1-9 text-align-center">
+	      <img src="img/AxelRund.png" class="img-fluid mx-auto" alt="">        
+
+              <h6 class="text-white mb-1 mt-2">Axel <br> Cullberg </h5>
+              <div class="social d-flex justify-content-center">
+		<h6 class="text-white mb-1 mt-2">CEO</h5>
+                
+              </div>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0 mr-1-9 text-align-center">
+              <img src="img/LeoRund.png" class="img-fluid mx-auto" alt="">
+              <h6 class="text-white mb-1 mt-2">Leonad <br> Bogojevic</h5>
+              <div class="social d-flex justify-content-center">
+                <h6 class="text-white mb-1 mt-2">COO</h5>
+                </a>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0 mr-1-9 text-align-center justify-content-center">
+              <img src="img/isacRund.png" class="img-fluid mx-auto" alt="">
+              <h6 class="text-white mb-1 mt-2">Isac <br> Andersson</h5>
+              <div class="social d-flex justify-content-center">
+                <h6 class="text-white mb-1 mt-2">CTO</h5>
+                </a>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0 mr-1-9 text-align-center">
+              <img src="img/henrikRund.png" class="img-fluid mx-auto" alt="">
+              <h6 class="text-white mb-1 mt-2">Henrik <br> Söderlund</h5>
+              <div class="social d-flex justify-content-center">
+                <h6 class="text-white mb-1 mt-2">CFO</h5>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- contactSection -->
+  
+  <section class="projects-section bg-black">
+    <div class="container">
+<h2 id="contact" class="text-white mb-3"></h2>
+      <div id="demo" class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+					
+			<h4 class="text-black"> .</h4>
+
+                	<h4 class="text-white">Lets Chat!</h4>
+                	<p class="mb-0 text-white-50">We would love to hear more about your project.</p>		                	
+			<hr class="d-none d-lg-block mb-0 ml-0">
+ 
+        </div>
+
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+
+						<div class="contact-row row-fluid">	
+							
+							<div class="span4 contact-block go-fade-in" style="transition-property: all; transition-duration: 0s; transition-timing-function: ease; opacity: 1;">	
+								
+									
+								<div class="contact-text">
+									<p class="mb-0 text-white-50"   ><b>Contact us at:</b></p>
+								<a href="tel:+46763906782" style="color:white">+46 763 90 67 82</a>
+								</div>	
+							</div>
+							<div class="span4 contact-block go-fade-in" style="transition-property: all; transition-duration: 0s; transition-timing-function: ease; opacity: 1;">	
+								<div class="contact-icon">
+								<i class="fa fa-map-marker"></i>
+								</div>	
+								<div class="contact-text">
+								<p class="mb-0 text-white-50">Järntrådsvägen 9 <br> Partille 43351</p>
+			
+								</div>	
+							</div>
+							<div class="span4 contact-block go-fade-in" style="transition-property: all; transition-duration: 0s; transition-timing-function: ease; opacity: 1;">
+									
+								<div class="contact-icon">
+								<i class="fa fa-envelope"></i>
+								</div>
+									
+								<div class="contact-text">									
+								<a href="mailto:info.whatyoucallit@gmail.com" style="color:white">info.whatyoucallit@gmail.com</a>
+								</div>
+							</div>	
+						</div>	
+               				</div>
+
+
+								
+							
+			</div>		
+		</div>	
+               				
+        
+              </div>
+ 
+          </div>
+        </div>
+      </div>
+</section>
+
+
+  <!-- Footer -->
+   <footer class="bg-black small text-center text-white-50">
+    <div class="container mb-5 mt-5">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mt-5">
+            
+        </div>
+        <div class="col-md-4 col-sm-6 mt-5">
+            <img src="img/logoWhite.png" class="img-fluid mx-auto width-15" alt="">
+        </div>
+	<div class="col-md-4 col-sm-6 mt-5">
+            
+        </div>
+        
+      </div>
+    </div>
+    Copyright &copy; WhatYouCallIT 2020
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
