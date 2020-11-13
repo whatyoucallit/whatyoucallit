@@ -236,7 +236,8 @@
 
 	.mt-20, 
 .my-20{
-	margin-top: 20rem !important;
+	margin-top: 3rem !important;
+	margin-bottom:3rem !important;
 }
 	
   .masthead h1{font-size:3.5rem;line-height:3.5rem;letter-spacing:1rem;}
